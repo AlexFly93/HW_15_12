@@ -42,8 +42,7 @@ ul {
   display: inline-block;
   padding: 0.5em 1em;
 }
-.main-header__list__sublist,
-.main-header__list__subsublist{
+.main-header__list__sublist{
   display: none;
   position: absolute;
   left: 0;
@@ -56,4 +55,10 @@ ul {
     display:inline;
     position: absolute;
     right: -280px;
+}
+.main-header__list__subsublist{
+    display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
 }
