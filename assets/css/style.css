@@ -23,11 +23,12 @@ ul {
 }
 .main-header__item{
   display: inline-block;
+    position: relative;
 }
 .main-header__item,
 .main-header__item__subitem,
 .main-header__item__subsubitem {
-  position: relative;
+
   border: 1px solid #555;
   background-color:teal;
   color:azure;
@@ -47,6 +48,7 @@ ul {
   position: absolute;
   left: 0;
   right: 0;
+  z-index: 2;
 }
 .main-header__item:hover>.main-header__list__sublist{
   display: block;
@@ -59,6 +61,6 @@ ul {
 .main-header__list__subsublist{
     display: none;
   position: absolute;
-  left: 0;
+  left: 100%;
   right: 0;
 }
